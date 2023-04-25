@@ -1,0 +1,24 @@
+{
+  "name": "chaos_organizer_b",
+  "version": "1.0.0",
+  "description": "Дипломное задание к курсу «Продвинутый JavaScript в браузере». Chaos Organizer\r tags: netology advanced js in html\r Легенда\r Мы всё больше привыкаем к неформальному формату организации информации, где ключевое - не структура, а удобство и поиск. Примеры - Slack, Telegram, WhatsApp, вплоть до помощников типа Siri или Алиса.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "@koa/cors": "^4.0.0",
+    "koa": "^2.14.2",
+    "koa-body": "^6.0.1",
+    "koa-combine-routers": "^4.0.2",
+    "koa-router": "^12.0.0",
+    "koa-static": "^5.0.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0"
+  }
+}
